@@ -6,7 +6,7 @@ def fib(n, computed = {0:0,1:1}):
     return computed[n]
 
 number= int(input("Enter a number:"))
-for count in range(1,number):
+for count in range(1,number+1):
     print(fib(count))
 
 
